@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL =
+  "https://contacts-management-backend-4x3v.onrender.com";
 
 export function getToken() {
   return localStorage.getItem("token");
